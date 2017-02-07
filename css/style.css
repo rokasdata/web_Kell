@@ -7,7 +7,7 @@ body {
 #left_box {
 	
 	width: 250px;
-	height: 500px;
+	height: 600px;
 	border: 1px solid #4b0f0f;
 	background: url("../img/Kjell_Myrland.png")no-repeat #4b0f0f;
 	box-shadow: 1px 1px 1px #000;
@@ -87,9 +87,9 @@ ul#window_list {
 /*----super extra small device----*/
 @media (max-width: 479px){
 		/*--Header--*/
- 	.navbar-brand h1 { /*Kjell name */
-	    padding:10px;
-	    font-size: 3vw; /* 1vw = 1% of viewport width */
+ 	a.navbar-brand h1 { /*Kjell name */
+	    padding:10px 0 0 15px;
+	    font-size:3.3vw; /* 1vw = 1% of viewport width */
  }
   /*---Header end--*/
   /*body container*/
