@@ -1,0 +1,100 @@
+body {
+  font-size: 16px;
+  background-color: #c9c58a;
+  font-family: 'Oxygen', sans-serif;
+  /*header*/
+}
+#left_box {
+	
+	width: 250px;
+	height: 500px;
+	border: 1px solid #4b0f0f;
+	background: url("../img/Kjell_Myrland.png")no-repeat #4b0f0f;
+	box-shadow: 1px 1px 1px #000;
+	padding: 0;
+}
+.navbar-brand h1 { /*  name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-left: 50px;
+}
+#header-nav {
+	border: 0;
+	border-radius: 0;
+	background-color: transparent;
+}
+#header-nav .container {
+	margin: 0;
+	padding: 0;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+  	margin: 15px 30px 15px 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/*end of header*/
+/*--starts container*/
+.container {
+	margin:0 auto;
+	padding: 0 25px;
+}
+#right_box {
+	height:30px;
+	background-color: #9f9508;
+	float: right;
+	box-shadow: 1px 1px 1px #000;
+}
+#right_box #window_list li {
+	display:inline;
+	padding-right: 20px;
+}
+#window_list a {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+	
+
+}
+ul#window_list {
+	padding-top:5px;
+	margin: auto;
+	font-size: 1em;
+}
+
+#footer {
+	height: 40px;
+	background-color: grey;
+	margin: 15px 0;
+	color: #fff;
+	padding-top: 7px;
+	text-shadow: 1px 1px 1px #000;
+}
+/*--medium devices--*/
+@media (min-width:992px) and (max-width: 1199px){
+	ul#window_list {
+	
+	font-size:.9em;
+}
+/*----super extra small device----*/
+@media (max-width: 479px){
+		/*--Header--*/
+ 	.navbar-brand h1 { /*Kjell name */
+	    padding:10px;
+	    font-size: 3vw; /* 1vw = 1% of viewport width */
+ }
+  /*---Header end--*/
+  /*body container*/
+  .container #footer {
+	margin:0 auto;
+	padding: 0;
+}
+}
