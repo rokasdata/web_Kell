@@ -54,17 +54,24 @@ body {
 	border:1px solid #161b01;
 	border-radius: 5px;
 	box-shadow: 0 0 5px #1b0601;
+	vertical-align: middle;
 	
 }
 #nav_list li {
 	display: inline;
+
 }
 #nav_list a {
+	text-decoration: none;
 	color: #fff;
 	padding-top: 9px;
-	padding-right: 40px;
+	padding: 0 20px;
 	text-shadow: 1px 1px 1px #222;
 	font-size: 1.2em;
+}
+#nav_list a:hover {
+	background-color: #ccc;
+	border-radius: 5px;
 }
 #home-tiles.row {
 	margin:0;
@@ -75,8 +82,22 @@ body {
 #law_family p {
 	border:1px solid #3f0c1f;
 	margin:auto;
+	border-radius: 5px;
+	color: #000;
 	
-} 
+}
+#law_family #p_2, #p_3, #p_4, #p_5 {
+	
+	padding: 15px;
+	
+}
+#law_family #p_4 {
+	clear: both;
+}
+
+#law_family p:hover {
+	box-shadow: 0 0 30px #ccc;
+}
 /*#right_side{
 	padding-left: 50px;
 
@@ -87,7 +108,7 @@ body {
 #footer {
 	background-color: #ccc;
 	text-shadow: 1px 1px 1px #222;
-	box-shadow: 0 0 10px #1b0601;
+	box-shadow: 0 0 6px #1b0601;
 	margin: 20px 0;
 	font-size: .9em;
 	border-radius: 5px;
@@ -144,8 +165,11 @@ body {
 	}
 	#nav_list a {
 		font-size: .9em;
-		padding-right: 10px;
+		padding-right: 1px;
 
+	}
+	#nav_list {
+		padding-left: 0;
 	}
 	#right_side{
 	padding: 0;
@@ -165,6 +189,7 @@ body {
 	.navbar-brand h1 { /* Restaurant name */
 	    padding-top: 10px; 
 	    font-size:4vw; /* 1vw = 1% of viewport width */
+	    font-size: 1.5em;
   }
   #call-btn > a {
     font-size: 1.5em;
@@ -173,50 +198,45 @@ body {
     padding: 10px;
     background-color: #5b6e0c;
     color: #fff;
-    box-shadow: 0 0 5px #3f0c1f;
+    box-shadow: 0 0 7px #000;
 	border: 2px solid #3f0c1f;
   }
   #right_box #nav_list  li{
   	display: none;
   }
-  #left_side{
-  	display: none;
-  }
-  #right_side{
+   #right_side{
 	padding: 15px;
 
-}
-#left_side{
-	display: none;
-}
+	/*}
+	#left_side{
+		display: none;
+	}*/
 
 }
 /*--extra small devices--*/
 @media(max-width: 479px){
 		/*--Header--*/
- 	.navbar-brand h1 { /* Restaurant name */
+ 	.navbar-brand h1 { /* Kjell name */
+ 		line-height: 2;
 	    padding-top: 5px;
-	    font-size: 6vw; /* 1vw = 1% of viewport width */
+	    font-size: 5vw; /* 1vw = 1% of viewport width */
+		
   }
   /*---Header end--*/
-  #right_box #nav_list  li{
-  	display: none;
-  }
-  #call-btn > a {
+  
+ /* #call-btn > a {
     font-size: 1.5em;
     display: block;
     margin: 0 20px;
     padding: 10px;
     background-color: #5b6e0c;
     color: #fff;
-    box-shadow: 0 0 5px #3f0c1f;
+    box-shadow: 0 0 7px #000;
 	border: 2px solid #3f0c1f;
   }
-  .navbar-header h1 {
-  	line-height: 1em;
-  }
-  #right_side{
-	padding: 15px;
+  */
+  /*#law_family {
+  	width: 100%;
+  }*/
 
-}
 }
