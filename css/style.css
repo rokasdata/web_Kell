@@ -52,6 +52,9 @@ body {
 	box-shadow: 0 0 30px #3f0c1f;
 	
 }
+#nav_list li {
+	display: inline;
+}
 #nav_list a {
 	color: #fff;
 	padding-top: 9px;
@@ -71,12 +74,16 @@ body {
 #law_family {
 	width: 90%;
 	float:right;
-	padding: 20px;
+	
 }
 #law_family {
   	margin:auto;
-  	float: right;
-  }
+}
+  
+#right_side{
+	padding-left: 50px;
+
+}
 #footer {
 	background-color: #ccc;
 	text-shadow: 1px 1px 1px #222;
