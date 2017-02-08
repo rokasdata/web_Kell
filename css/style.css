@@ -91,14 +91,14 @@ body {
 }
 #law_family #p_1 {
 	height:230px;
-	background-color: #520202;
+	background: url(../images/jumbotron_768.jpg) no-repeat #520202;
 	margin: auto;
 }
-#p_1 #pp_1 {
+/*#p_1 #pp_1 {
 	width: 80%;
 	height: 150;
 	background: #ccc;
-}
+}*/
 #right_box #nav_list {
 	border: none;
 }
