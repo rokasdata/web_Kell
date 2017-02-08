@@ -53,7 +53,7 @@ body {
 	background-color: #5b6e0c;
 	border:1px solid #161b01;
 	border-radius: 5px;
-	box-shadow: 0 0 10px #1b0601;
+	box-shadow: 0 0 5px #1b0601;
 	
 }
 #nav_list li {
@@ -77,10 +77,10 @@ body {
 	margin:auto;
 	
 } 
-#right_side{
+/*#right_side{
 	padding-left: 50px;
 
-}
+}*/
 #right_box #nav_list {
 	border: none;
 }
@@ -173,7 +173,7 @@ body {
     padding: 10px;
     background-color: #5b6e0c;
     color: #fff;
-    box-shadow: 0 0 30px #3f0c1f;
+    box-shadow: 0 0 5px #3f0c1f;
 	border: 2px solid #3f0c1f;
   }
   #right_box #nav_list  li{
@@ -185,6 +185,9 @@ body {
   #right_side{
 	padding: 15px;
 
+}
+#left_side{
+	display: none;
 }
 
 }
@@ -206,7 +209,7 @@ body {
     padding: 10px;
     background-color: #5b6e0c;
     color: #fff;
-    box-shadow: 0 0 30px #3f0c1f;
+    box-shadow: 0 0 5px #3f0c1f;
 	border: 2px solid #3f0c1f;
   }
   .navbar-header h1 {
