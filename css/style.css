@@ -29,8 +29,8 @@ body {
 /*--main window--*/
 #left_box {
 	
-	background-color: #1b0601;
-	box-shadow: 0 0 10px #1b0601;
+	background-color: #520202;
+	box-shadow: 0 0 10px #520202;
 
 }
 #text_address {
@@ -38,10 +38,10 @@ body {
 	padding: 0;
 	width: 250px;
 	border-radius: 5px;
-	border: 1px solid #000;
+	border: 1px solid #520202;
 	
-	background-color: #1b0601;
-	box-shadow: 0 0 10px #1b0601;
+	background-color: #520202;
+	box-shadow: 0 0 10px #520202;
 }
 .btn {
 	border: #3f0c1f; 
@@ -69,16 +69,12 @@ body {
 	text-shadow: 1px 1px 1px #222;
 	font-size: 1.2em;
 }
-#nav_list a:hover {
-	background-color: #ccc;
-	border-radius: 5px;
-}
 #home-tiles.row {
 	margin:0;
 }
-#left_side, #right_side{
+/*#left_side, #right_side{
 	margin:0;
-}
+}*/
 #law_family p {
 		margin:auto;
 	border-radius: 5px;
@@ -94,19 +90,15 @@ body {
 	clear: both;
 }
 #law_family #p_1 {
-	width: 400px;
-	height: 250px;
-	background-color: #1b0601;
+	height:230px;
+	background-color: #520202;
 	margin: auto;
 }
-
-#law_family p:hover {
-	box-shadow: 0 0 30px #000;
+#p_1 #pp_1 {
+	width: 80%;
+	height: 150;
+	background: #ccc;
 }
-/*#right_side{
-	padding-left: 50px;
-
-}*/
 #right_box #nav_list {
 	border: none;
 }
@@ -187,7 +179,7 @@ body {
 
 }
 /*------------------EXtra small devices only--------------------*/
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
 	
 	  /* Header */
 	.navbar-brand {
@@ -214,37 +206,21 @@ body {
   }
    #right_side{
 	padding: 15px;
-
-	/*}
-	#left_side{
-		display: none;
-	}*/
+}
+#law_family #p_1{
+	margin-top:20px;
+}
 
 }
 /*--extra small devices--*/
 @media(max-width: 479px){
 		/*--Header--*/
  	.navbar-brand h1 { /* Kjell name */
- 		line-height: 2;
+ 		line-height: 2.5;
 	    padding-top: 5px;
-	    font-size: 5vw; /* 1vw = 1% of viewport width */
+	    font-size: 6vw; /* 1vw = 1% of viewport width */
 		
   }
   /*---Header end--*/
   
- /* #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    background-color: #5b6e0c;
-    color: #fff;
-    box-shadow: 0 0 7px #000;
-	border: 2px solid #3f0c1f;
-  }
-  */
-  /*#law_family {
-  	width: 100%;
-  }*/
-
 }
