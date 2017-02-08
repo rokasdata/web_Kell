@@ -80,8 +80,7 @@ body {
 	margin:0;
 }
 #law_family p {
-	border:1px solid #3f0c1f;
-	margin:auto;
+		margin:auto;
 	border-radius: 5px;
 	color: #000;
 	
@@ -94,9 +93,15 @@ body {
 #law_family #p_4 {
 	clear: both;
 }
+#law_family #p_1 {
+	width: 400px;
+	height: 250px;
+	background-color: #1b0601;
+	margin: auto;
+}
 
 #law_family p:hover {
-	box-shadow: 0 0 30px #ccc;
+	box-shadow: 0 0 30px #000;
 }
 /*#right_side{
 	padding-left: 50px;
@@ -141,6 +146,9 @@ body {
 	}
 	#nav_list a {
 		font-size: .9em;
+	}
+	#nav_list {
+		padding-left: 0;
 	}
 	#text_address {
 	width: 200px;
