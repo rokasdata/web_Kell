@@ -1,100 +1,159 @@
 body {
   font-size: 16px;
-  background-color: #c9c58a;
+  color: #fff;
+  background-color: #ece2aa;
   font-family: 'Oxygen', sans-serif;
-  /*header*/
 }
-#left_box {
-	
-	width: 250px;
-	height: 600px;
-	border: 1px solid #4b0f0f;
-	background: url("../img/Kjell_Myrland.png")no-repeat #4b0f0f;
-	box-shadow: 1px 1px 1px #000;
-	padding: 0;
-}
-.navbar-brand h1 { /*  name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.3em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-  padding-left: 50px;
-}
+/*--Header--*/
 #header-nav {
 	border: 0;
 	border-radius: 0;
-	background-color: transparent;
+	background: transparent;
 }
-#header-nav .container {
+.navbar-header h1 {
+	margin: 0;
+	font-family: 'Lora', serif;
+	color: #100d77;
+	text-transform: uppercase;
+	line-height: .75;
+	font-size: 1.5em;
+	margin-top: 0;
+  	margin-bottom: 0;
+  	text-shadow:1px 1px 1px #222;
+}
+/*--enf header--*/
+/*--main window--*/
+#left_box {
+	
+	background-color: #1b0601;
+	box-shadow: 0 0 50px #1b0601;
+
+}
+#text_address {
 	margin: 0;
 	padding: 0;
-}
-.navbar-header button.navbar-toggle{
-	clear: both;
-  	margin: 15px 30px 15px 0;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-/*end of header*/
-/*--starts container*/
-.container {
-	margin:0 auto;
-	padding: 0 25px;
-}
-#right_box {
-	height:30px;
-	background-color: #9f9508;
-	float: right;
-	box-shadow: 1px 1px 1px #000;
-}
-#right_box #window_list li {
-	display:inline;
-	padding-right: 20px;
-}
-#window_list a {
-	color: #fff;
-	text-shadow: 1px 1px 1px #000;
-	text-decoration: none;
+	width: 250px;
+	border-radius: 5px;
+	border: 1px solid #000;
 	
-
+	background-color: #1b0601;
+	box-shadow: 0 0 50px #1b0601;
 }
-ul#window_list {
-	padding-top:5px;
-	margin: auto;
-	font-size: 1em;
+.btn {
+	border: #3f0c1f; 
 }
-
+.btn:hover {
+	background-color: #e7e7e7;
+}
+#nav_list  {
+	background-color: #5b6e0c;
+	border:1px solid #161b01;
+	border-radius: 5px;
+	box-shadow: 0 0 50px #3f0c1f;
+	
+}
+#nav_list a {
+	color: #fff;
+	padding-top: 9px;
+	padding-right: 40px;
+	text-shadow: 1px 1px 1px #222;
+	font-size: 1.2em;
+}
+#home-tiles.row {
+	margin:0;
+}
+#left_side, #right_side{
+	margin:0;
+}
 #footer {
-	height: 40px;
-	background-color: grey;
-	margin: 15px 0;
-	color: #fff;
-	padding-top: 7px;
-	text-shadow: 1px 1px 1px #000;
+	background-color: #e7e7e7;
+	text-shadow: 1px 1px 1px #222;
+	position: relative;
+	top: 120px;
+	box-shadow: 0 0 50px #1b0601;
+	margin-bottom: 20px;
+	font-size: .9em;
+	border-radius: 5px;
 }
-/*--medium devices--*/
-@media (min-width:992px) and (max-width: 1199px){
-	ul#window_list {
+/*------------------Large devices only--------------------*/
+@media (min-width: 1200px) {
 	
-	font-size:.9em;
+	.container .jumbotron {
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height: 364px;
+		width:250px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border: 2px solid #3f0c1f;
+	}
+
 }
-/*----super extra small device----*/
-@media (max-width: 479px){
-		/*--Header--*/
- 	a.navbar-brand h1 { /*Kjell name */
-	    padding:10px 0 0 15px;
-	    font-size:3.3vw; /* 1vw = 1% of viewport width */
- }
-  /*---Header end--*/
-  /*body container*/
-  .container #footer {
-	margin:0 auto;
-	padding: 0;
+/*------------------Media devices only--------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*#logo-img {
+		background: url('../images/restaurant-logo_medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}*/
+	.container .jumbotron {
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height: 288px;
+		width: 200px;
+		
+	}
+	#nav_list a {
+		font-size: .9em;
+	}
+	#text_address {
+	width: 200px;
+	
+	background-color: #1b0601;
+	box-shadow: 0 0 50px #1b0601;
+	}
+
 }
+/*------------------Small devices only--------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.container .jumbotron {
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 259px;
+		width:180px;
+		clear: both;
+		
+	}
+	#text_address {
+	width: 180px;
+	
+	
+	}
+	#nav_list a {
+		font-size: .9em;
+		padding-right: 10px;
+
+	}
+	
+
+}
+/*------------------EXtra small devices only--------------------*/
+@media (max-width: 767px) {
+	
+	  /* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /* Restaurant name */
+	    padding-top: 10px; 
+	    font-size:4vw; /* 1vw = 1% of viewport width */
+  }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #1b0601;
+    color: #fff;
+  }
 }
