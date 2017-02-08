@@ -30,7 +30,7 @@ body {
 #left_box {
 	
 	background-color: #1b0601;
-	box-shadow: 0 0 30px #1b0601;
+	box-shadow: 0 0 10px #1b0601;
 
 }
 #text_address {
@@ -41,7 +41,7 @@ body {
 	border: 1px solid #000;
 	
 	background-color: #1b0601;
-	box-shadow: 0 0 30px #1b0601;
+	box-shadow: 0 0 10px #1b0601;
 }
 .btn {
 	border: #3f0c1f; 
@@ -53,7 +53,7 @@ body {
 	background-color: #5b6e0c;
 	border:1px solid #161b01;
 	border-radius: 5px;
-	box-shadow: 0 0 30px #3f0c1f;
+	box-shadow: 0 0 10px #1b0601;
 	
 }
 #nav_list li {
@@ -73,17 +73,10 @@ body {
 	margin:0;
 }
 #law_family p {
-	border:1px solid #3f0c1f ;
-}
-#law_family {
-	width: 90%;
-	float:right;
+	border:1px solid #3f0c1f;
+	margin:auto;
 	
-}
-#law_family {
-  	margin:auto;
-}
-  
+} 
 #right_side{
 	padding-left: 50px;
 
@@ -94,7 +87,7 @@ body {
 #footer {
 	background-color: #ccc;
 	text-shadow: 1px 1px 1px #222;
-	box-shadow: 0 0 30px #1b0601;
+	box-shadow: 0 0 10px #1b0601;
 	margin: 20px 0;
 	font-size: .9em;
 	border-radius: 5px;
@@ -107,8 +100,7 @@ body {
 		background: url('../images/jumbotron_1200.jpg') no-repeat;
 		height: 364px;
 		width:250px;
-		box-shadow: 0 0 30px #3f0c1f;
-		border: 2px solid #3f0c1f;
+		
 	}
 
 }
@@ -132,8 +124,6 @@ body {
 	#text_address {
 	width: 200px;
 	
-	background-color: #1b0601;
-	box-shadow: 0 0 30px #1b0601;
 	}
 
 }
@@ -157,6 +147,10 @@ body {
 		padding-right: 10px;
 
 	}
+	#right_side{
+	padding: 0;
+
+}
 	
 
 }
@@ -188,6 +182,10 @@ body {
   #left_side{
   	display: none;
   }
+  #right_side{
+	padding: 15px;
+
+}
 
 }
 /*--extra small devices--*/
@@ -198,4 +196,24 @@ body {
 	    font-size: 6vw; /* 1vw = 1% of viewport width */
   }
   /*---Header end--*/
+  #right_box #nav_list  li{
+  	display: none;
+  }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: #5b6e0c;
+    color: #fff;
+    box-shadow: 0 0 30px #3f0c1f;
+	border: 2px solid #3f0c1f;
+  }
+  .navbar-header h1 {
+  	line-height: 1em;
+  }
+  #right_side{
+	padding: 15px;
+
+}
 }
