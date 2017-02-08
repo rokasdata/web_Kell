@@ -73,6 +73,10 @@ body {
 	float:right;
 	padding: 20px;
 }
+#law_family {
+  	margin:auto;
+  	float: right;
+  }
 #footer {
 	background-color: #ccc;
 	text-shadow: 1px 1px 1px #222;
@@ -126,7 +130,7 @@ body {
 		background: url('../images/jumbotron_768.jpg') no-repeat;
 		height: 259px;
 		width:180px;
-		clear: both;
+		
 		
 	}
 	#text_address {
@@ -164,4 +168,11 @@ body {
     box-shadow: 0 0 30px #3f0c1f;
 	border: 2px solid #3f0c1f;
   }
+  #right_box #nav_list  li{
+  	display: none;
+  }
+  #left_side{
+  	display: none;
+  }
+
 }
