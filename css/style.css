@@ -46,9 +46,6 @@ body {
 #text_address_2 {
 	margin: 0;
 	padding: 0;
-	
-	border-radius: 5px;
-	border: 1px solid #fff;
 	color:#fff;
 	
 	box-shadow: 0 0 10px #ccc;
@@ -279,6 +276,7 @@ body {
   }
   #family_2 #p_1 {
   	padding:0;
+
   }
   
 }
