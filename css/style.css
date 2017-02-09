@@ -39,16 +39,20 @@ body {
 	width: 250px;
 	border-radius: 5px;
 	border: 1px solid #520202;
-	
+	line-height: .5;
 	background-color: #520202;
 	box-shadow: 0 0 10px #520202;
+	font-weight: 400;
+}
+#text_address > p {
+	padding-top: 10px;
 }
 #text_address_2 {
 	margin: 0;
 	padding: 0;
 	color:#fff;
 	
-	box-shadow: 0 0 10px #ccc;
+	
 }
 .btn {
 	border: #3f0c1f; 
@@ -83,7 +87,7 @@ body {
 	margin:0;
 }*/
 #law_family p {
-		margin:auto;
+	margin:auto;
 	border-radius: 5px;
 	color: #000;
 	
@@ -116,19 +120,6 @@ body {
 	
 
 }
-#p_1 {
-	position: relative;
-}
-#law_family_2 #pp_1 {
-	position: absolute;
-	right: 20px;
-	top: 200px;
-	color: #fff;
-	padding:10px;
-	
-	
-	
-}
 #right_box #nav_list {
 	border: none;
 }
@@ -137,12 +128,13 @@ body {
 	padding-right: 0;
 }
 .img {
-	height:230px;
-	background: url(../images/jumbotron_768.jpg) no-repeat #520202;
-	margin: 10px;
-	padding: 20px;
+	width: 180px;
+	height:259px;
+	background: url(../images/jumbotron_768.jpg) no-repeat;
+	padding:0;
 	border-radius:5px;
 	box-shadow: 0 0 5px #1b0601;
+	margin: 0 auto;
 }
 #footer {
 	background-color: #ccc;
@@ -152,6 +144,7 @@ body {
 	font-size: .9em;
 	border-radius: 5px;
 	height: 30px;
+	padding-top: 2px;
 }
 /*------------------Large devices only--------------------*/
 @media (min-width: 1200px) {
@@ -169,12 +162,7 @@ body {
 }
 /*------------------Media devices only--------------------*/
 @media (min-width: 992px) and (max-width: 1199px) {
-	/*#logo-img {
-		background: url('../images/restaurant-logo_medium.png') no-repeat;
-		width: 100px;
-		height: 100px;
-		margin: 5px 5px 5px 0;
-	}*/
+	
 	.container .jumbotron {
 		background: url('../images/jumbotron_992.jpg') no-repeat;
 		height: 288px;
@@ -254,7 +242,32 @@ body {
 }
 #law_family #p_1{
 	margin-top:20px;
+
 }
+#home-tiles.row {
+	margin:0 8px;
+}
+#law_family_2{
+	color: #000;
+
+}
+#law_family_2> .img {
+	float: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*#text_address_2{
+	
+  	font-size: .7em;
+  	font-size:6vw;
+  	box-shadow: none;
+  	border: 0;
+  	padding-top: 30px;
+  	color: #000;
+  }
+  #text_address_2 p{
+  	padding-right: 10px;
+  }*/
 
 }
 /*--extra small devices--*/
@@ -267,16 +280,20 @@ body {
 		
   }
   /*---Header end--*/
-  #text_address_2{
-  	font-size: .7em;
-  	font-size:4vw;
-  	box-shadow: none;
-  	padding: 10px;
-  	border: 0;
-  }
   #family_2 #p_1 {
   	padding:0;
 
   }
+  /*#text_address_2{
+	
+  	font-size: .6em;
+  	font-size: 3.5vw;
+  	line-height: .7;
+  	
+  }
+  #text_address_2 p{
+  	padding-right: 0;
+  	font-weight: bold;
+  }*/
   
 }
