@@ -121,7 +121,15 @@ body {
 	padding-left: 0;
 	padding-right: 0;
 }
-
+.img {
+	width: 180px;
+	height:259px;
+	background: url(../images/jumbotron_768.jpg) no-repeat;
+	padding:0;
+	border-radius:5px;
+	box-shadow: 0 0 5px #1b0601;
+	margin: 0 auto;
+}
 #footer {
 	background-color: #ccc;
 	text-shadow: 1px 1px 1px #222;
@@ -131,6 +139,11 @@ body {
 	border-radius: 5px;
 	height: 30px;
 	padding-top: 2px;
+}
+iframe {
+	border-radius: 5px;
+	box-shadow:0 0 6px #1b0601
+
 }
 /*------------------Large devices only--------------------*/
 @media (min-width: 1200px) {
@@ -199,14 +212,6 @@ body {
 }
 /*------------------EXtra small devices only--------------------*/
 @media (max-width: 767px) {
-
-	.container .jumbotron {
-		background: url('../images/jumbotron_768.jpg') no-repeat;
-		height: 259px;
-		width:180px;
-		
-		
-	}
 	
 	  /* Header */
 	.navbar-brand {
@@ -245,43 +250,14 @@ body {
 	color: #000;
 
 }
-#law_family_2> #p_1 {
-	/*float: none;*/
-	margin-top: 20px;
-	margin-bottom: 20px;
+div#p_1.jumbotron {
+	background: transparent;
+	padding-bottom: 0;
 }
-.jumbotron {
-	background-color: transparent;
-}
+
 }
 /*--extra small devices--*/
-@media(max-width: 479px) {
-
-	.container .jumbotron {
-		background: url('../images/jumbotron_479.jpg') no-repeat;
-		height: 194px;
-		width:135px;
-		
-		
-	}
-	#p_2.jumbotron{
-		display: none;
-	}
-	#map-tile iframe {
-		height: 194px;
-		width: 100%;
-		border-radius: 5px;
-		box-shadow: 0 0 6px #1b0601;
-
-	}
-	.container .jumbotron, #map-tile iframe {
-
-		margin: 20px 0 20px 12px;
-		padding:0;
-	}
-
-
-
+@media(max-width: 479px){
 		/*--Header--*/
  	.navbar-brand h1 { /* Kjell name */
  		line-height: 2.5;
@@ -290,6 +266,10 @@ body {
 		
   }
   /*---Header end--*/
+  #family_2 #p_1 {
+  	padding:0;
+
+  }
   
   
 }
