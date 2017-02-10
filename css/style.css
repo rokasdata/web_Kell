@@ -47,13 +47,6 @@ body {
 #text_address > p {
 	padding-top: 10px;
 }
-#text_address_2 {
-	margin: 0;
-	padding: 0;
-	color:#fff;
-	
-	
-}
 .btn {
 	border: #3f0c1f; 
 }
@@ -107,18 +100,19 @@ body {
 #law_family #p_4 {
 	clear: both;
 }
-/*#law_family #p_1 {
-	height:230px;
-	background: url(../images/jumbotron_768.jpg) no-repeat #520202;
-	margin: auto;
-	padding: 20px;
-}*/
 #law_family #p_1 {
+	width: 80%;
+	height: 150px;
+	background: #025252;
+	color: #fff;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px #000;
+	box-shadow: 0 0 5px #1b0601;
+	padding: 30px 0;
+	margin: 50px auto 0;
+	float: none;
 	
-	height: 230px;
-	background: #520202;
-	
-
 }
 #right_box #nav_list {
 	border: none;
@@ -256,18 +250,6 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-/*#text_address_2{
-	
-  	font-size: .7em;
-  	font-size:6vw;
-  	box-shadow: none;
-  	border: 0;
-  	padding-top: 30px;
-  	color: #000;
-  }
-  #text_address_2 p{
-  	padding-right: 10px;
-  }*/
 
 }
 /*--extra small devices--*/
@@ -284,16 +266,6 @@ body {
   	padding:0;
 
   }
-  /*#text_address_2{
-	
-  	font-size: .6em;
-  	font-size: 3.5vw;
-  	line-height: .7;
-  	
-  }
-  #text_address_2 p{
-  	padding-right: 0;
-  	font-weight: bold;
-  }*/
+  
   
 }
