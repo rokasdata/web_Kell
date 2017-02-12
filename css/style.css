@@ -140,6 +140,9 @@ body {
 	height: 30px;
 	padding-top: 2px;
 }
+#map-tile {
+	margin-bottom: 20px;
+}
 iframe {
 	border-radius: 5px;
 	box-shadow:0 0 6px #1b0601
