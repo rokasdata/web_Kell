@@ -148,6 +148,11 @@ iframe {
 	box-shadow:0 0 6px #1b0601
 
 }
+#collapsable-nav #nav-list a:hover, #nav-list a:focus {
+	background-color: #cccccc;
+	touch-action: manipulation;
+    cursor: pointer;
+}
 /*------------------Large devices only--------------------*/
 @media (min-width: 1200px) {
 	
