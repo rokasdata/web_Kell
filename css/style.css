@@ -150,7 +150,7 @@ iframe {
 }
 #collapsable-nav #nav-list a:hover, #nav-list a:focus {
 	background-color: #cccccc;
-	touch-action: manipulation;
+	
     cursor: pointer;
 }
 /*------------------Large devices only--------------------*/
