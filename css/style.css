@@ -191,7 +191,7 @@ textarea {
 .button-xlarge {
   font-size: 125%;
 }
-button {
+button .button-success {
   float: right;
 }
 #name, #email {
