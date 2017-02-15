@@ -98,6 +98,7 @@ body {
 
 	
 }
+
 #law_family #p_4 {
 	clear: both;
 }
@@ -200,6 +201,9 @@ button .button-success {
 }
 .pure-group {
 	color: #000;
+}
+#gform{
+	margin-top: 40px;
 }
 /*--end of style sheet--*/
 
@@ -310,6 +314,11 @@ button .button-success {
 div#p_1.jumbotron {
 	background: transparent;
 	padding-bottom: 0;
+}
+#email, #name {
+	font-size: .8em;
+	height: 2.5em;
+	text-align: center;
 }
 
 }
