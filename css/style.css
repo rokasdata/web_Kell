@@ -186,6 +186,16 @@ button {
   width: 50%;
 }
 /*--end of form stylesheet--*/
+/*--banner--*/
+.row.banner-info{
+	margin:40px 0;
+	background-color: #049d9d;
+	color: #000;
+	border: 1px solid #025252;
+	padding: 15px;
+	font-weight: 500;
+	border-radius: 3px;
+}
 
 
 /*------------------Large devices only--------------------*/
