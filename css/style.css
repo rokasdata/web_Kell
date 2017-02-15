@@ -4,6 +4,7 @@ body {
   font-family: 'Oxygen', sans-serif
 
 }
+
 /*--Header--*/
 #header-nav {
 	border: 0;
@@ -77,9 +78,6 @@ body {
 #home-tiles.row {
 	margin:0;
 }
-/*#left_side, #right_side{
-	margin:0;
-}*/
 #law_family p {
 	margin:auto;
 	border-radius: 5px;
@@ -94,9 +92,7 @@ body {
 #p_2 a, #p_3 a, #p_4 a, #p_5 a {
 	
 	font-size: 20px;
-	font-weight: bold;
-
-	
+	font-weight: bold;	
 }
 
 #law_family #p_4 {
@@ -112,7 +108,7 @@ body {
 	text-shadow: 1px 1px 1px #000;
 	box-shadow: 0 0 5px #1b0601;
 	padding: 30px 0;
-	margin: 50px auto 0;
+	margin: 20px auto 0;
 	float: none;
 	
 }
@@ -123,15 +119,7 @@ body {
 	padding-left: 0;
 	padding-right: 0;
 }
-.img {
-	width: 180px;
-	height:259px;
-	background: url(../images/jumbotron_768.jpg) no-repeat;
-	padding:0;
-	border-radius:5px;
-	box-shadow: 0 0 5px #1b0601;
-	margin: 0 auto;
-}
+
 #footer {
 	background-color: #ccc;
 	color: #fff;
@@ -189,9 +177,9 @@ button {
 /*--banner--*/
 .row.banner-info{
 	margin:40px 0;
-	background-color: #049d9d;
+	background-color: #e9e9e9;
 	color: #000;
-	border: 1px solid #025252;
+	border: 1px solid #858989;
 	padding: 15px;
 	font-weight: 500;
 	border-radius: 3px;
@@ -240,8 +228,7 @@ button {
 		background: url('../images/jumbotron_768.jpg') no-repeat;
 		height: 259px;
 		width:180px;
-		
-		
+			
 	}
 	#text_address {
 	width: 180px;
@@ -259,12 +246,17 @@ button {
 	#right_side{
 	padding: 0;
 
-}
-
+	} 
+	
 }
 /*------------------EXtra small devices only--------------------*/
 @media (max-width: 767px) {
-	
+	.container .jumbotron {
+		background: url('../images/jumbotron_479.jpg') no-repeat;
+		height: 194px;
+		width:135px;
+			
+	}
 	  /* Header */
 	.navbar-brand {
 		padding-top: 10px;
@@ -298,14 +290,17 @@ button {
 #home-tiles.row {
 	margin:0 8px;
 }
-#law_family_2{
-	color: #000;
 
-}
-div#p_1.jumbotron {
+.jumbotron {
 	background: transparent;
 	padding-bottom: 0;
+	float:none;
+	margin: 25px auto;
 }
+.banner {
+		border-bottom: 1px solid #000;
+	}
+
 
 
 }
@@ -319,11 +314,8 @@ div#p_1.jumbotron {
 		
   }
   /*---Header end--*/
-  #family_2 #p_1 {
-  	padding:0;
-
-  }
-  #name{
+  
+  #name, #email{
   	height: 3em;
   	font-size: .8em;
   }
