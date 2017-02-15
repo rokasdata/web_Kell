@@ -315,11 +315,7 @@ div#p_1.jumbotron {
 	background: transparent;
 	padding-bottom: 0;
 }
-#email, #name {
-	font-size: .8em;
-	height: 2.5em;
-	text-align: center;
-}
+
 
 }
 /*--extra small devices--*/
@@ -339,6 +335,11 @@ div#p_1.jumbotron {
   body {
   	margin:0;
   }
+  #email, #name {
+	font-size: .8em;
+	height: 2.5em;
+	text-align: center;
+}
   
   
 }
