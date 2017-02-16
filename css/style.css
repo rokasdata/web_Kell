@@ -40,7 +40,7 @@ body {
 	width: 250px;
 	border-radius: 5px;
 	border: 1px solid #520202;
-	line-height: .5;
+	line-height: 1.48;
 	background-color: #520202;
 	box-shadow: 0 0 10px #520202;
 	font-weight: 400;
@@ -49,8 +49,14 @@ body {
 #text_address > p {
 	padding-top: 10px;
 }
+address {
+	
+	font-style: italic;
+}
 .btn {
-	border: #3f0c1f; 
+	border: #3f0c1f;
+	margin: 5px auto -10px;
+	font-size: 1.2em; 
 }
 .btn:hover {
 	background-color: #e7e7e7;
@@ -183,6 +189,10 @@ button {
 	padding: 15px;
 	font-weight: 500;
 	border-radius: 3px;
+}
+.banner {
+	line-height: 1.48;
+	font-weight:500;
 }
 #map-banner{
 	margin-top:20px;
