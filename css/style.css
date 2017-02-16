@@ -49,7 +49,7 @@ body {
 #text_address > p {
 	padding: 10px 10px;
 }
-address {
+address, #text_address p {
 	
 	font-style: italic;
 	letter-spacing: 2px;
