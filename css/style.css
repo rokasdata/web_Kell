@@ -52,6 +52,7 @@ body {
 address {
 	
 	font-style: italic;
+	letter-spacing: 2px;
 }
 .btn {
 	border: #3f0c1f;
