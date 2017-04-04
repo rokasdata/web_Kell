@@ -25,7 +25,6 @@ var dc = {};
 
 var homeHtml = "snippets/snippet-home.html";
 var aboutHtml = "snippets/snippet-about.html";
-var contactUsHtml = "snippets/snippet-contactUs.html";
 var practiceHtml = "snippets/snippet-practice.html";
 var customersHtml = "snippets/snippet-customers.html";
 var activityHtml = "snippets/snippet-activity.html";
@@ -68,19 +67,6 @@ $ajaxUtils.sendGetRequest(
   false);
 };
 
-dc.loadContactUsHtml = function(){
-	hideMe("#main-insertHtml");
-	showLoading("#main-insertHtml");
-
-$ajaxUtils.sendGetRequest(
-  contactUsHtml,
-  function (responseText) {
-    document.querySelector("#main-insertHtml")
-      .innerHTML = responseText;
-
-  },
-  false);
-};
 dc.loadActivityHtml = function(){
 
 	showLoading("#main-insertHtml");
