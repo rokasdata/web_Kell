@@ -42,11 +42,7 @@ var showLoading = function (selector) {
   html += "<img src='images/ajax-loader.gif'></div>";
   insertHtml(selector, html);
 };
-var hideMe = function (selector){
-	var html = document.querySelector("#p_1");
-	html.classList.add("hide-me");
-	insertHtml(selector)
-};
+
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
