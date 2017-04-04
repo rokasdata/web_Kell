@@ -182,6 +182,9 @@ button {
   width: 50%;
   
 }
+.gap_top {
+	margin-top: 20px;
+}
 /*--end of form stylesheet--*/
 /*--banner--*/
 .row.banner-info{
