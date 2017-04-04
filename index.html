@@ -43,15 +43,13 @@
               <ul id="nav-list" class="nav navbar-nav visible-xs text-center">
             <li><a href="index.html">
             <br class="hidden-xs">Hjem</a></li>
-            <li><a href="snippets/snippet-activity.html">
+            <li><a href="#" onclick="$dc.loadActivityHtml();">
             <br class="hidden-xs">Aktivitet</a></li>
-            <li><a href="snippets/snippet-customers.html">
+            <li><a href="#" onclick="$dc.loadCustomersHtml();">
             <br class="hidden-xs">Kunder</a></li>
-            <li><a href="snippets/snippet-practice.html">
+            <li><a href="#" onclick="$dc.loadPracticeHtml();">
             <br class="hidden-xs">Praksis</a></li>
-            <!-- <li><a href="#">
-            <br class="hidden-xs">Usful</a></li> -->
-            <li><a href="snippets/snippet-about.html">
+            <li><a href="#" onclick="$dc.loadAboutHtml();">
             <br class="hidden-xs">Om oss</a></li>
             <li><a href="snippets/snippet-contactUs.html">
             <br class="hidden-xs">Epost</a></li>
@@ -69,7 +67,7 @@
         
     <!-- body_container -->
     <div>
-      <div id="call-btn" class="visible-xs"><a class="btn" href="tel: 90-84-94-54"><span class="glyphicon glyphicon-earphone"></span>  90-84-94-54</a>
+      <div id="call-btn" class="visible-xs btn" ><a  href="tel:90-84-94-54"><span class="glyphicon glyphicon-earphone"></span>90-84-94-54</a>
     </div>
     
       
@@ -84,7 +82,7 @@
         
           </div>
           <div id="text_address" class="col-lg-12 col-md-12 col-sm-12 col-xs-12  hidden-xs text-center">
-          <div id="call-btn"><a class="btn text-center" href="tel: 90-84-94-54"><span class="glyphicon glyphicon-earphone"></span> 90-84-94-54</a>
+          <div id="call-btn"class="btn text-center"><a href="tel:90-84-94-54"><span class="glyphicon glyphicon-earphone"></span>90-84-94-54</a>
             </div><hr>
           <address>
             Postadresse:<br>
@@ -114,32 +112,35 @@
           <div class="row">
               <div id="right_box" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <ul id="nav_list">
-                    <li><a href="snippets/snippet-activity.html">Activity</a></li>
-                    <li><a href="snippets/snippet-customers.html">Kunder</a></li>
-                    <li><a href="snippets/snippet-practice.html">Praksis</a></li>
-                    <!-- <li><a href="#">Usful</a></li> -->
-                    <li><a href="snippets/snippet-about.html">Om oss</a></li>
+                      <li><a href="../index.html">Hjem</a></li>
+                    <li><a href="#" onclick="$dc.loadActivityHtml();">Aktivitet</a></li>
+                    <li><a href="#" onclick="$dc.loadCustomersHtml();">Kunder</a></li>
+                    <li><a href="#" onclick="$dc.loadPracticeHtml();">Praksis</a></li>
+                    <li><a href="#" onclick="$dc.loadAboutHtml();">Om oss</a></li>
                     <li><a href="snippets/snippet-contactUs.html">Epost</a></li>
                   </ul>
               </div>
-              <div id="law_family" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+              
+      
+      
+    </div>
+    <div id="law_family" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
               <p id="p_1" class="text-center hidden-xs"><a href="#"></a>
               <span>vi har løsning på did problem</span>
                 
               </p>
-              <p id="p_2" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 "><a href="#">Family Law<br></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae corrupti, tempore minus voluptas aspernatur saepe obcaecati aperiam dicta impedit ad est minima qui temporibus, quaerat, magnam animi blanditiis sequi deserunt.</p>
-              <p id="p_3" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="#">Criminal Law<br></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quaerat quis neque. Adipisci fuga eum dolore ut tempore, veritatis. Natus vero consequuntur delectus sit culpa, earum quas expedita asperiores ea.</p>
-              <p id="p_4" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="#">Civil Law<br></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi assumenda non, aliquam alias. Aut consequuntur ipsa, nisi, quidem impedit cupiditate minus aliquam deserunt, quibusdam at nihil beatae nobis esse rem.</p>
-              <p id="p_5" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><a href="#">Natural Person<br></a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, nobis repellendus, ipsam veritatis at cum dicta reiciendis dolor aliquid tenetur. Animi nam a itaque, asperiores maiores recusandae sint, voluptates quae?</p>
-            
-          </div>
-          </div>
+    
+
+    
+        <div id="main-insertHtml"></div>
+
+
         </div>
-      
-      
+        </div>
+      </div>
     </div>
     <div class="row">
-    <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 visible-xs"><a href="#top">Back to top</a></div>
+    <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 visible-xs"><a href="#top">Tilbake til toppen</a></div>
     <div id="footer" class="panel-footer col-md-12 col-sm-12 col-xs-12 text-center">&copy;Copyright Kjell Myrland</div>
     </div>
     </div>

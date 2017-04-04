@@ -145,6 +145,7 @@ address, #text_address p {
 iframe {
 	border-radius: 5px;
 	box-shadow:0 0 6px #1b0601
+	margin-bottom:20px;
 
 }
 #collapsable-nav #nav-list a:hover, #nav-list a:focus {
@@ -179,6 +180,7 @@ button {
 }
 #name, #email {
   width: 50%;
+  
 }
 /*--end of form stylesheet--*/
 /*--banner--*/
@@ -213,7 +215,7 @@ button {
 		
 	}
 	#nav_list a {
-		padding:0 20px 0 35px;
+		padding:0 20px 0 30px;
 	}
 
 }
@@ -253,7 +255,7 @@ button {
 	
 	}
 	#nav_list a {
-		font-size: .9em;
+		font-size: .8em;
 		padding-right: 1em;
 
 	}
