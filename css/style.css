@@ -122,6 +122,21 @@ address, #text_address p {
 #right_box #nav_list {
 	border: none;
 }
+#right_box #nav_list li:hover{
+
+  	background-color: #ccc;
+  	border-radius:5px;
+  	padding:2px 0;
+
+  }
+  .active{
+  	background-color: #ccc;
+  	border-radius:5px;
+
+  }
+  .hide-me{
+  	display:none;
+  }
 #right_box {
 	padding-left: 0;
 	padding-right: 0;
@@ -209,6 +224,9 @@ button {
 }
 #phone-number {
 	color:blue;
+}
+#main-contented{
+	width: 100%;
 }
 
 
@@ -316,6 +334,7 @@ button {
   #right_box #nav_list  li{
   	display: none;
   }
+  
    #right_side{
 	padding: 15px;
 }
@@ -336,6 +355,9 @@ button {
 .banner {
 		border-bottom: 1px solid #000;
 		padding-bottom: 15px;
+	}
+	.hide-picture{
+		dispaly:none;
 	}
 
 

@@ -119,3 +119,10 @@ $ajaxUtils.sendGetRequest(
 global.$dc = dc;
 
 })(window);
+
+ 
+
+
+
+
+

@@ -78,11 +78,11 @@
         <div id="home-tiles" class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="row">
-           <div id="left_box" class="jumbotron col-lg-12 col-md-12 col-sm-12 col-xs-12">
+           <div id="left_box" class="jumbotron  col-lg-12 col-md-12 col-sm-12 col-xs-12">
         
           </div>
           <div id="text_address" class="col-lg-12 col-md-12 col-sm-12 col-xs-12  hidden-xs text-center">
-          <div id="call-btn"class="btn text-center"><a href="tel:90-84-94-54"><span class="glyphicon glyphicon-earphone"></span>90-84-94-54</a>
+          <div id="call-bBtn"class="btn text-center"><a href="tel:90-84-94-54"><span class="glyphicon glyphicon-earphone"></span>90-84-94-54</a>
             </div><hr>
           <address>
             Postadresse:<br>
@@ -111,7 +111,7 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
           <div class="row">
               <div id="right_box" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <ul id="nav_list">
+                  <ul id="nav_list" class="nav_lright">
                     <li><a href="index.html">Hjem</a></li>
                     <li><a href="#" onclick="$dc.loadActivityHtml();">Aktivitet</a></li>
                     <li><a href="#" onclick="$dc.loadCustomersHtml();">Kunder</a></li>
@@ -150,5 +150,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ajax-utils.js"></script>
     <script src="js/script.js"></script>
+    <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
   </body>
 </html>
