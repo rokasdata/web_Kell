@@ -148,6 +148,10 @@ iframe {
 	margin-bottom:20px;
 
 }
+#collapsable-nav a {
+	color:#ff1900;
+	text-shadow: 1px 1px 1px #1e1e1e;
+}
 #collapsable-nav #nav-list a:hover, #nav-list a:focus {
 	background-color: #cccccc;
 	cursor: pointer;
@@ -296,8 +300,18 @@ button {
     padding: 10px;
     background-color: #5b6e0c;
     color: #fff;
-    box-shadow: 0 0 7px #000;
+    text-shadow: 1px 1px 3px #000;
+    box-shadow: 0 0 7px #3f0c1f;
 	border: 2px solid #3f0c1f;
+  }
+  #call-btn > a:hover {
+  	box-shadow: 3px 3px 15px #000;
+  	text-decoration: none;
+  	color: #307eff;
+  }
+  #call-btn:hover {
+  	
+  	background-color: transparent;
   }
   #right_box #nav_list  li{
   	display: none;
