@@ -160,7 +160,7 @@ address, #text_address p {
 iframe {
 	border-radius: 5px;
 	box-shadow:0 0 6px #1b0601
-	margin-bottom:20px;
+	margin-bottom: 20px;
 
 }
 #collapsable-nav a {
@@ -225,9 +225,7 @@ button {
 #phone-number {
 	color:blue;
 }
-#main-contented{
-	width: 100%;
-}
+
 
 
 /*------------------Large devices only--------------------*/
